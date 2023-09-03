@@ -1,20 +1,40 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { ImageBackground, StyleSheet, View } from 'react-native'
+import FooterPanel from './src/components/FooterPanel'
+import GameBox from './src/components/GameBox'
+import HeaderPanel from './src/components/HeaderPanel'
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ImageBackground
+        source={require('./images/background.jpg')}
+        style={styles.backgroundImage} resizeMode="cover">
+        <HeaderPanel style={styles.headerPanel} />
+        <GameBox style={styles.gameBox} />
+        <FooterPanel style={styles.footerPanel} />
+      </ImageBackground>
     </View>
-  );
+  )
 }
+
+export default App
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 1
   },
-});
+  backgroundImage: {
+    flex: 1,
+    justifyContent: "center"
+  },
+  gameBox: {
+    flex: 5
+  },
+  headerPanel: {
+    flex: 2
+  },
+  footerPanel: {
+    flex: 2
+  }
+})
