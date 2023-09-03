@@ -1,11 +1,12 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
+import Seat from './Seat'
 
 const SeatBox = ({ style, seatStyle }: any) => {
     return (
         <View style={style}>
             <View style={styles.firstRow}>
-                <View style={seatStyle}></View>
+                <Seat seatStyle={seatStyle} />
                 <View style={seatStyle}></View>
             </View>
             <View style={styles.secondRow}>
