@@ -6,31 +6,31 @@ const RedPath = ({ style }: any) => {
     return (
         <View style={style}>
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={styles.cell} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
+                <Cell color="white" />
+                <Cell color="red" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
             </View>
 
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
+                <Cell color="white" />
+                <Cell color="red" />
+                <Cell color="red" />
+                <Cell color="red" />
+                <Cell color="red" />
+                <Cell color="red" />
 
             </View>
 
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
             </View>
         </View>
     )

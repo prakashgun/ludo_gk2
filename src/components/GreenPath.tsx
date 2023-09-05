@@ -6,30 +6,31 @@ const GreenPath = ({ style }: any) => {
     return (
         <View style={style}>
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
             </View>
 
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
-                <Cell style={styles.cell} />
+            <Cell color="white" />
+                
+                <Cell color="green" />
+                <Cell color="green" />
+                <Cell color="green" />
+                <Cell color="green" />
+                <Cell color="green" />
             </View>
 
             <View style={styles.panel}>
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={styles.cell} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
-                <Cell style={[styles.cell, styles.whiteCell]} />
+                <Cell color="white" />
+                <Cell color="green" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
+                <Cell color="white" />
             </View>
         </View>
     )

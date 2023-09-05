@@ -4,7 +4,6 @@ import BluePath from './BluePath'
 import Destination from './Destination'
 import GreenPath from './GreenPath'
 import House from './House'
-import Path from './Path'
 import RedPath from './RedPath'
 import YellowPath from './YellowPath'
 
