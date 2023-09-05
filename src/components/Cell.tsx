@@ -36,24 +36,16 @@ whiteCell: {
 },
 redCell: {
   backgroundColor: "#EE1B26",
-  // flex: 2,
-  // borderRightWidth:1
 },
 greenCell: {
   backgroundColor: "#00A04A",
-  flex: 1,
-  borderRightWidth:1,
   flexDirection:"row"
 },
 blueCell: {
   backgroundColor: "#24AEFE",
-  // flex: 1,
-  borderRightWidth:1,
   flexDirection:"row"
 },
 yellowCell: {
   backgroundColor: "#FFDE17",
-  // flex: 2,
-  borderLeftWidth: 1
 }
 })
