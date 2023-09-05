@@ -17,7 +17,9 @@ const getSeatStyle = (color: string) => {
 const Seat = ({color}:any) => {
   return (
     <View style={[styles.seat, getSeatStyle(color)]}>
-        <Token color={color} size={9} />
+        <Token color={color} />
+        <Token color={color} />
+        <Token color={color} />
     </View>
   )
 }
@@ -26,11 +28,11 @@ export default Seat
 
 const styles = StyleSheet.create({
   seat:{
-    height: 26,
-    width: 26,
+    height: 30,
+    width: 30,
     borderRadius:13,
     margin: 9,
-    flex:1,
+    flex:1,  
     flexDirection: "row",
     flexWrap: "wrap"
 },
