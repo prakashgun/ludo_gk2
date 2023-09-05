@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Token from './Token'
 
 const getCellStyle = (color: string) => {
   if(color == 'red'){
@@ -19,6 +20,7 @@ const getCellStyle = (color: string) => {
 const Cell = ({color}:any) => {
   return (
     <View style={[styles.cell, getCellStyle(color)]}>
+
     </View>
   )
 }
@@ -29,7 +31,9 @@ const styles = StyleSheet.create({
   cell: {
     flex: 1,
     borderWidth: 1,
-    borderColor: "black"
+    borderColor: "black",
+    flexDirection: "row",
+    flexWrap: "wrap"
 },
 whiteCell: {
     backgroundColor: "white"

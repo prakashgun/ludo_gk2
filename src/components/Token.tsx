@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
 const Token = ({ color }:any) => {
-  const size =8
+  const size =10
   const tokenStyles = {
     backgroundColor: color,
     width: size,
@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     margin: 1
   },
   innerCircle: {
-    width: '60%', // Adjust the size of the inner white circle as needed
-    height: '60%',
+    width: '30%', // Adjust the size of the inner white circle as needed
+    height: '30%',
     backgroundColor: 'white',
   }
 });
