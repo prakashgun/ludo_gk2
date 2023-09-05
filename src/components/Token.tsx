@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
-const Token = ({ color }:any) => {
-  const size =10
+const Token = ({ color }: any) => {
+  const size = 10
   const tokenStyles = {
     backgroundColor: color,
     width: size,

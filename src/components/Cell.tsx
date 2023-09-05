@@ -1,23 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Token from './Token'
+import { StyleSheet, View } from 'react-native'
 
 const getCellStyle = (color: string) => {
-  if(color == 'red'){
+  if (color == 'red') {
     return styles.redCell
-  }else if(color == 'green'){
+  } else if (color == 'green') {
     return styles.greenCell
-  }else if(color == 'blue'){
+  } else if (color == 'blue') {
     return styles.blueCell
-  }else if(color == 'yellow'){
+  } else if (color == 'yellow') {
     return styles.yellowCell
-  }else{
+  } else {
     return styles.whiteCell
   }
 }
 
-
-const Cell = ({color}:any) => {
+const Cell = ({ color }: any) => {
   return (
     <View style={[styles.cell, getCellStyle(color)]}>
 
@@ -34,22 +32,22 @@ const styles = StyleSheet.create({
     borderColor: "black",
     flexDirection: "row",
     flexWrap: "wrap"
-},
-whiteCell: {
+  },
+  whiteCell: {
     backgroundColor: "white"
-},
-redCell: {
-  backgroundColor: "#EE1B26",
-},
-greenCell: {
-  backgroundColor: "#00A04A",
-  flexDirection:"row"
-},
-blueCell: {
-  backgroundColor: "#24AEFE",
-  flexDirection:"row"
-},
-yellowCell: {
-  backgroundColor: "#FFDE17",
-}
+  },
+  redCell: {
+    backgroundColor: "#EE1B26",
+  },
+  greenCell: {
+    backgroundColor: "#00A04A",
+    flexDirection: "row"
+  },
+  blueCell: {
+    backgroundColor: "#24AEFE",
+    flexDirection: "row"
+  },
+  yellowCell: {
+    backgroundColor: "#FFDE17",
+  }
 })

@@ -55,19 +55,19 @@ const styles = StyleSheet.create({
     redPath: {
         backgroundColor: "#EE1B26",
         flex: 2,
-        borderRightWidth:1
+        borderRightWidth: 1
     },
     greenPath: {
         backgroundColor: "#00A04A",
         flex: 1,
-        borderRightWidth:1,
-        flexDirection:"row"
+        borderRightWidth: 1,
+        flexDirection: "row"
     },
     bluePath: {
         backgroundColor: "#24AEFE",
         flex: 1,
-        borderRightWidth:1,
-        flexDirection:"row"
+        borderRightWidth: 1,
+        flexDirection: "row"
     },
     yellowPath: {
         backgroundColor: "#FFDE17",

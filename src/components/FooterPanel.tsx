@@ -1,7 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
-const FooterPanel = ({style}:any) => {
+const FooterPanel = ({ style }: any) => {
   return (
     <View style={style}>
       <Text>FooterPanel</Text>

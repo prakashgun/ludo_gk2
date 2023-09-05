@@ -1,7 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, View } from 'react-native'
 
-const Destination = ({style}:any) => {
+const Destination = ({ style }: any) => {
   return (
     <View style={style}>
       <View style={styles.destination} />

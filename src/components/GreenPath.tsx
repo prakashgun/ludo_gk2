@@ -15,8 +15,7 @@ const GreenPath = ({ style }: any) => {
             </View>
 
             <View style={styles.panel}>
-            <Cell color="white" />
-                
+                <Cell color="white" />
                 <Cell color="green" />
                 <Cell color="green" />
                 <Cell color="green" />
