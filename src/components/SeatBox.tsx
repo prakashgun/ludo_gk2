@@ -2,16 +2,21 @@ import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import Seat from './Seat'
 
-const SeatBox = ({ style, seatStyle }: any) => {
+
+  
+const SeatBox = ({ color }: any) => {
     return (
-        <View style={style}>
+        <View style={styles.seatBox}>
             <View style={styles.firstRow}>
-                <Seat seatStyle={seatStyle} />
-                <View style={seatStyle}></View>
+                <Seat color={color} />
+                <Seat color={color} />
+
             </View>
             <View style={styles.secondRow}>
-                <View style={seatStyle}></View>
-                <View style={seatStyle}></View>
+            <Seat color={color} />
+
+            <Seat color={color} />
+
             </View>
         </View>
     )
@@ -20,6 +25,14 @@ const SeatBox = ({ style, seatStyle }: any) => {
 export default SeatBox
 
 const styles = StyleSheet.create({
+    
+    seatBox:{
+      width: "60%",
+      height: "60%",
+      backgroundColor: "white",
+      borderColor: "black",
+      borderWidth: 1 
+    },
     firstRow: {
         flex: 1,
         flexDirection: "row",

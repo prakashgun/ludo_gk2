@@ -1,20 +1,22 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { AntDesign } from '@expo/vector-icons'
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
 
-const Token = ({style, seatStyle}:any) => {
-  return (
-    <View style={styles.container}>
-        <AntDesign name="enviroment" size={14} color="black" />
-    </View>
-  )
-}
+const Token = ({ color, size }:any) => {
+  const tokenStyles = {
+    backgroundColor: color,
+    width: size,
+    height: size,
+    borderRadius: size / 2,
+  };
 
-export default Token
+  return <View style={[styles.token, tokenStyles]} />;
+};
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        paddingBottom: 5
-      }
-})
+  token: {
+    borderWidth: 2,
+    borderColor: 'black',
+  },
+});
+
+export default Token;

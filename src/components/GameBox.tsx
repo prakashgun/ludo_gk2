@@ -12,19 +12,19 @@ const GameBox = ({ style }: any) => {
     return (
         <View style={style}>
             <View style={styles.firstRow}>
-                <House style={[styles.house, styles.redHouse]} seatStyle={[styles.seat, styles.redSeat]} />
+                <House color="red" />
                 <GreenPath style={[styles.path, styles.greenPath]} />
-                <House style={[styles.house, styles.greenHouse]} seatStyle={[styles.seat, styles.greenSeat]} />
+                <House color="green" />
             </View>
             <View style={styles.secondRow}>
-                <RedPath style={[styles.path, styles.redPath]} />
+                <RedPath style={[styles.path, styles.redPath]} color="red" />
                 <Destination style={styles.destination} />
-                <YellowPath style={[styles.path, styles.yellowPath]} />
+                <YellowPath style={[styles.path, styles.yellowPath]} color="yellow" />
             </View>
             <View style={styles.thirdRow}>
-                <House style={[styles.house, styles.blueHouse]} seatStyle={[styles.seat, styles.blueSeat]} />
+                <House color="blue" />
                 <BluePath style={[styles.path, styles.bluePath]} />
-                <House style={[styles.house, styles.yellowHouse]} seatStyle={[styles.seat, styles.yellowHouse]} />
+                <House color="yellow" />
             </View>
         </View>
     )
@@ -48,26 +48,6 @@ const styles = StyleSheet.create({
     thirdRow: {
         flex: 2,
         flexDirection: "row"
-    },
-    house: {
-        borderColor: "black",
-        flex:2,
-        justifyContent: "center",
-        alignItems: "center"
-    },
-    redHouse: {
-        backgroundColor: "#EE1B26",
-        borderRightWidth:1
-    },
-    greenHouse: {
-        backgroundColor: "#00A04A"
-    },
-    blueHouse: {
-        backgroundColor: "#24AEFE",
-        borderRightWidth:1
-    },
-    yellowHouse: {
-        backgroundColor: "#FFDE17"
     },
     path: {
         borderColor: "black",
@@ -98,23 +78,5 @@ const styles = StyleSheet.create({
     destination: {
         backgroundColor: "white",
         flex: 1,
-    },
-    seat:{
-        height: 26,
-        width: 26,
-        borderRadius:13,
-        margin: 9
-    },
-    redSeat: {
-        backgroundColor: "#EE1B26"
-    },
-    greenSeat: {
-        backgroundColor: "#00A04A"
-    },
-    blueSeat: {
-        backgroundColor: "#24AEFE"
-    },
-    yellowSeat: {
-        backgroundColor: "#FFDE17"
     }
 })
