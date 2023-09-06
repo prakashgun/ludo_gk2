@@ -1,9 +1,9 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 
-const Destination = ({ style }: any) => {
+const Destination = () => {
   return (
-    <View style={style}>
+    <View style={styles.container}>
       <View style={styles.destination} />
     </View>
   )
@@ -12,6 +12,10 @@ const Destination = ({ style }: any) => {
 export default Destination
 
 const styles = StyleSheet.create({
+  container:{
+    backgroundColor: "white",
+    flex: 1
+  },
   // Pacman style modified from https://www.codedaily.io/tutorials/The-Shapes-of-React-Native
   destination: {
     width: 0,

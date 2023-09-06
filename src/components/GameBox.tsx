@@ -18,7 +18,7 @@ const GameBox = ({ style }: any) => {
             </View>
             <View style={styles.secondRow}>
                 <Path color="red" />
-                <Destination style={styles.destination} />
+                <Destination />
                 <Path color="yellow" />
             </View>
             <View style={styles.thirdRow}>
@@ -48,9 +48,5 @@ const styles = StyleSheet.create({
     thirdRow: {
         flex: 2,
         flexDirection: "row"
-    },
-    destination: {
-        backgroundColor: "white",
-        flex: 1,
     }
 })
