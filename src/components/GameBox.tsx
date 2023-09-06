@@ -6,23 +6,24 @@ import GreenPath from './GreenPath'
 import House from './House'
 import RedPath from './RedPath'
 import YellowPath from './YellowPath'
+import Path from './Path'
 
 const GameBox = ({ style }: any) => {
     return (
         <View style={style}>
             <View style={styles.firstRow}>
                 <House color="red" />
-                <GreenPath style={[styles.path, styles.greenPath]} />
+                <Path color="green" />
                 <House color="green" />
             </View>
             <View style={styles.secondRow}>
-                <RedPath style={[styles.path, styles.redPath]} color="red" />
+                <Path color="red" />
                 <Destination style={styles.destination} />
-                <YellowPath style={[styles.path, styles.yellowPath]} color="yellow" />
+                <Path color="yellow" />
             </View>
             <View style={styles.thirdRow}>
                 <House color="blue" />
-                <BluePath style={[styles.path, styles.bluePath]} />
+                <Path color="blue" />
                 <House color="yellow" />
             </View>
         </View>
@@ -47,32 +48,6 @@ const styles = StyleSheet.create({
     thirdRow: {
         flex: 2,
         flexDirection: "row"
-    },
-    path: {
-        borderColor: "black",
-        flexWrap: "nowrap"
-    },
-    redPath: {
-        backgroundColor: "#EE1B26",
-        flex: 2,
-        borderRightWidth: 1
-    },
-    greenPath: {
-        backgroundColor: "#00A04A",
-        flex: 1,
-        borderRightWidth: 1,
-        flexDirection: "row"
-    },
-    bluePath: {
-        backgroundColor: "#24AEFE",
-        flex: 1,
-        borderRightWidth: 1,
-        flexDirection: "row"
-    },
-    yellowPath: {
-        backgroundColor: "#FFDE17",
-        flex: 2,
-        borderLeftWidth: 1
     },
     destination: {
         backgroundColor: "white",
