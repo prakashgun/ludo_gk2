@@ -3,6 +3,7 @@ import { StyleSheet, View } from 'react-native'
 import Destination from './Destination'
 import House from './House'
 import Path from './Path'
+import Dice from './Dice'
 
 const GameBox = ({ style }: any) => {
     return (
@@ -22,6 +23,10 @@ const GameBox = ({ style }: any) => {
                 <Path color="blue" />
                 <House color="yellow" />
             </View>
+            <View style={styles.fifthRow}>
+             <Dice />
+             </View>
+
         </View>
     )
 }
@@ -44,5 +49,11 @@ const styles = StyleSheet.create({
     thirdRow: {
         flex: 2,
         flexDirection: "row"
+    },
+    fifthRow: {
+        flex: 1,
+        flexDirection: "row",
+        justifyContent: 'center',
+        margin: 5
     }
 })
