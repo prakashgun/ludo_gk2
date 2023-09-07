@@ -20,13 +20,13 @@ const styles = StyleSheet.create({
   destination: {
     width: 0,
     height: 0,
-    borderTopWidth: 45,
+    borderTopWidth: 50,
     borderTopColor: "#90EE90",
     borderLeftColor: "#FFCCCB",
     borderLeftWidth: 40,
     borderRightColor: "#FFFDD0",
     borderRightWidth: 40,
     borderBottomColor: "#ADD8E6",
-    borderBottomWidth: 48
+    borderBottomWidth: 52
   }
 })

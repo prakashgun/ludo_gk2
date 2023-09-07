@@ -35,19 +35,19 @@ export default GameBox
 
 const styles = StyleSheet.create({
     firstRow: {
-        flex: 2,
+        flex: 3,
         flexDirection: "row",
         borderBottomWidth: 1,
         borderColor: "black"
     },
     secondRow: {
-        flex: 1,
+        flex: 2,
         flexDirection: "row",
         borderBottomWidth: 1,
         borderColor: "black"
     },
     thirdRow: {
-        flex: 2,
+        flex: 3,
         flexDirection: "row"
     },
     fifthRow: {
