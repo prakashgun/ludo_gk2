@@ -18,8 +18,6 @@ const Seat = ({ color }: any) => {
   return (
     <View style={[styles.seat, getSeatStyle(color)]}>
       <Token color={color} />
-      <Token color={color} />
-      <Token color={color} />
     </View>
   )
 }
@@ -37,15 +35,15 @@ const styles = StyleSheet.create({
     flexWrap: "wrap"
   },
   redSeat: {
-    backgroundColor: "#EE1B26"
+    backgroundColor: "#FFCCCB"
   },
   greenSeat: {
-    backgroundColor: "#00A04A"
+    backgroundColor: "#90EE90"
   },
   blueSeat: {
-    backgroundColor: "#24AEFE"
+    backgroundColor: "#ADD8E6"
   },
   yellowSeat: {
-    backgroundColor: "#FFDE17"
+    backgroundColor: "#FFFDD0"
   }
 })

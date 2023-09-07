@@ -1,11 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
-import BluePath from './BluePath'
 import Destination from './Destination'
-import GreenPath from './GreenPath'
 import House from './House'
-import RedPath from './RedPath'
-import YellowPath from './YellowPath'
 import Path from './Path'
 
 const GameBox = ({ style }: any) => {

@@ -37,17 +37,17 @@ const styles = StyleSheet.create({
     backgroundColor: "white"
   },
   redCell: {
-    backgroundColor: "#EE1B26",
+    backgroundColor: "#FFCCCB",
   },
   greenCell: {
-    backgroundColor: "#00A04A",
+    backgroundColor: "#90EE90",
     flexDirection: "row"
   },
   blueCell: {
-    backgroundColor: "#24AEFE",
+    backgroundColor: "#ADD8E6",
     flexDirection: "row"
   },
   yellowCell: {
-    backgroundColor: "#FFDE17",
+    backgroundColor: "#FFFDD0",
   }
 })

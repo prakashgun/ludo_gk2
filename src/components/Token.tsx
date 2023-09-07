@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 const Token = ({ color }: any) => {
-  const size = 10
+  const size = 15
   const tokenStyles = {
     backgroundColor: color,
     width: size,

@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
         flexDirection: "row"
     },
     redPath: {
-        backgroundColor: "#EE1B26",
+        backgroundColor: "#FFCCCB",
         flex: 2,
         borderRightWidth: 1
     },
