@@ -21,12 +21,12 @@ const styles = StyleSheet.create({
     width: 0,
     height: 0,
     borderTopWidth: 50,
-    borderTopColor: "#90EE90",
-    borderLeftColor: "#FFCCCB",
+    borderTopColor: "#60eb9a",
+    borderLeftColor: "#ed8290",
     borderLeftWidth: 40,
-    borderRightColor: "#FFFDD0",
+    borderRightColor: "#e0db4c",
     borderRightWidth: 40,
-    borderBottomColor: "#ADD8E6",
+    borderBottomColor: "#4ca2e0",
     borderBottomWidth: 52
   }
 })

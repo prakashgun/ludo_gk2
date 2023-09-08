@@ -32,17 +32,17 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   redHouse: {
-    backgroundColor: "#FFCCCB",
+    backgroundColor: "#ed8290",
     borderRightWidth: 1
   },
   greenHouse: {
-    backgroundColor: "#90EE90"
+    backgroundColor: "#60eb9a"
   },
   blueHouse: {
-    backgroundColor: "#ADD8E6",
+    backgroundColor: "#4ca2e0",
     borderRightWidth: 1
   },
   yellowHouse: {
-    backgroundColor: "#FFFDD0"
+    backgroundColor: "#e0db4c"
   }
 })

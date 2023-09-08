@@ -35,15 +35,15 @@ const styles = StyleSheet.create({
     flexWrap: "wrap"
   },
   redSeat: {
-    backgroundColor: "#FFCCCB"
+    backgroundColor: "#ed8290"
   },
   greenSeat: {
-    backgroundColor: "#90EE90"
+    backgroundColor: "#60eb9a"
   },
   blueSeat: {
-    backgroundColor: "#ADD8E6"
+    backgroundColor: "#4ca2e0"
   },
   yellowSeat: {
-    backgroundColor: "#FFFDD0"
+    backgroundColor: "#e0db4c"
   }
 })
